@@ -1,0 +1,119 @@
+openapi: 3.0.0
+info:
+  contact:
+    email: nabil.tahri@polymtl.ca
+    name: Nabil Tahri
+    url: http://swagger.io
+  description: A sample API that uses a petstore as an example to demonstrate features
+    in the OpenAPI 3.0 specification
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Books Store
+  version: 0.0.1
+servers:
+- url: http://localhost:8080/v1/api
+paths:
+  /books:
+    get:
+      description: Get all stored books
+      operationId: GetBooks
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/Book'
+                type: array
+          description: Books response
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: unexpected error
+      summary: Returns all books
+  /books/search:
+    post:
+      description: Using filter to search for books
+      operationId: SearchBooks
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Book'
+        description: Search for specific Books
+        required: true
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/Book'
+                type: array
+          description: pet response
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          description: unexpected error
+      summary: Search for books with specific filter
+components:
+  schemas:
+    Book:
+      example:
+        Literature: MODERN
+        NumberOfPage: 0
+        YearOfPublication: 6
+        Rating: 1
+        Author: Author
+        Genre: ACTION
+      properties:
+        Author:
+          description: Name of the author
+          type: string
+        Genre:
+          enum:
+          - ACTION
+          - ADVENTURE
+          - COMIC
+          - DETECTIVE
+          - FANTASY
+          - HISTORICAL
+          type: string
+        Literature:
+          enum:
+          - MODERN
+          - CLASSIC
+          type: string
+        NumberOfPage:
+          format: int32
+          type: integer
+        YearOfPublication:
+          format: int32
+          type: integer
+        Rating:
+          enum:
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          format: int32
+          type: integer
+    Error:
+      properties:
+        code:
+          description: Error code
+          format: int32
+          type: integer
+        message:
+          description: Error message
+          type: string
+      required:
+      - code
+      - message
