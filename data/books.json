@@ -1,0 +1,488 @@
+[
+  {
+    "author": "Chinua Achebe",
+    "country": "Nigeria",
+    "genre" : "Historical",
+    "Rating" : 5,
+    "NumberOfPage": 209,
+    "title": "Things Fall Apart",
+    "YearOfPublication": 1958
+  },
+  {
+    "author": "Hans Christian Andersen",
+    "country": "Denmark",
+    "genre" : "Literary",
+    "Rating" : 5,
+    "NumberOfPage": 784,
+    "title": "Fairy tales",
+    "YearOfPublication": 1836
+  },
+  {
+    "author": "Dante Alighieri",
+    "country": "Italy",
+    "genre" : "Comedy",
+    "Rating" : 5,
+    "NumberOfPage": 928,
+    "title": "The Divine Comedy",
+    "YearOfPublication": 1315
+  },
+  {
+    "author": "Jane Austen",
+    "country": "United Kingdom",
+    "genre" : "Romance",
+    "Rating" : 5,
+    "NumberOfPage": 226,
+    "title": "Pride and Prejudice",
+    "YearOfPublication": 1813
+  },
+  {
+    "author": "Samuel Beckett",
+    "country": "Republic of Ireland",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 256,
+    "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
+    "YearOfPublication": 1952
+  },
+  {
+    "author": "Giovanni Boccaccio",
+    "country": "Italy",
+    "genre" : "Story",
+    "Rating" : 5,
+    "NumberOfPage": 1024,
+    "title": "The Decameron",
+    "YearOfPublication": 1351
+  },
+  {
+    "author": "Emily Bront",
+    "country": "United Kingdom",
+    "genre" : "Tragedy",
+    "Rating" : 5,
+    "NumberOfPage": 342,
+    "title": "Wuthering Heights",
+    "YearOfPublication": 1847
+  },
+  {
+    "author": "Louis-Ferdinand Cline",
+    "country": "France",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 505,
+    "title": "Journey to the End of the Night",
+    "YearOfPublication": 1932
+  },
+  {
+    "author": "Miguel de Cervantes",
+    "country": "Spain",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 1056,
+    "title": "Don Quijote De La Mancha",
+    "YearOfPublication": 1610
+  },
+  {
+    "author": "Geoffrey Chaucer",
+    "country": "England",
+    "genre" : "Satire",
+    "Rating" : 5,
+    "NumberOfPage": 544,
+    "title": "The Canterbury Tales",
+    "YearOfPublication": 1450
+  },
+  {
+    "author": "Anton Chekhov",
+    "country": "Russia",
+    "genre" : "Story",
+    "Rating" : 5,
+    "NumberOfPage": 194,
+    "title": "Stories",
+    "YearOfPublication": 1886
+  },
+  {
+    "author": "Joseph Conrad",
+    "country": "United Kingdom",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 320,
+    "title": "Nostromo",
+    "YearOfPublication": 1904
+  },
+  {
+    "author": "Charles Dickens",
+    "country": "United Kingdom",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 194,
+    "title": "Great Expectations",
+    "YearOfPublication": 1861
+  },
+  {
+    "author": "Denis Diderot",
+    "country": "France",
+    "genre" : "Philosophical",
+    "Rating" : 5,
+    "NumberOfPage": 596,
+    "title": "Jacques the Fatalist",
+    "YearOfPublication": 1796
+  },
+  {
+    "author": "Alfred Dblin",
+    "country": "Germany",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 600,
+    "title": "Berlin Alexanderplatz",
+    "YearOfPublication": 1929
+  },
+  {
+    "author": "Fyodor Dostoevsky",
+    "country": "Russia",
+    "genre" : "Philosophical",
+    "Rating" : 5,
+    "NumberOfPage": 551,
+    "title": "Crime and Punishment",
+    "YearOfPublication": 1866
+  },
+  {
+    "author": "Fyodor Dostoevsky",
+    "country": "Russia",
+    "genre" : "Philosophical",
+    "Rating" : 5,
+    "NumberOfPage": 656,
+    "title": "The Idiot",
+    "YearOfPublication": 1869
+  },
+  {
+    "author": "George Eliot",
+    "country": "United Kingdom",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 800,
+    "title": "Middlemarch",
+    "YearOfPublication": 1871
+  },
+  {
+    "author": "Ralph Ellison",
+    "country": "United States",
+    "genre" : "Literature",
+    "Rating" : 5,
+    "NumberOfPage": 581,
+    "title": "Invisible Man",
+    "YearOfPublication": 1952
+  },
+  {
+    "author": "William Faulkner",
+    "country": "United States",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 326,
+    "title": "The Sound and the Fury",
+    "YearOfPublication": 1929
+  },
+  {
+    "author": "Gustave Flaubert",
+    "country": "France",
+    "genre" : "Realism",
+    "Rating" : 5,
+    "NumberOfPage": 528,
+    "title": "Madame Bovary",
+    "YearOfPublication": 1857
+  },
+  {
+    "author": "Gustave Flaubert",
+    "country": "France",
+    "genre" : "Realism",
+    "Rating" : 5,
+    "NumberOfPage": 606,
+    "title": "Sentimental Education",
+    "YearOfPublication": 1869
+  },
+  {
+    "author": "Federico Garca Lorca",
+    "country": "Spain",
+    "genre" : "Poetry",
+    "Rating" : 5,
+    "NumberOfPage": 218,
+    "title": "Gypsy Ballads",
+    "YearOfPublication": 1928
+  },
+  {
+    "author": "Gabriel Garca Mrquez",
+    "country": "Colombia",
+    "genre" : "Realism",
+    "Rating" : 5,
+    "NumberOfPage": 417,
+    "title": "One Hundred YearOfPublications of Solitude",
+    "YearOfPublication": 1967
+  },
+  {
+    "author": "Gabriel Garca Mrquez",
+    "country": "Colombia",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 368,
+    "title": "Love in the Time of Cholera",
+    "YearOfPublication": 1985
+  },
+  {
+    "author": "Nikolai Gogol",
+    "country": "Russia",
+    "genre" : "Political",
+    "Rating" : 5,
+    "NumberOfPage": 432,
+    "title": "Dead Souls",
+    "YearOfPublication": 1842
+  },
+  {
+    "author": "Joo Guimares Rosa",
+    "country": "Brazil",
+    "genre" : "images/the-devil-to-pay-in-the-backlands.jpg",
+    "Rating" : 5,
+    "NumberOfPage": 494,
+    "title": "The Devil to Pay in the Backlands",
+    "YearOfPublication": 1956
+  },
+  {
+    "author": "Ernest Hemingway",
+    "country": "United States",
+    "genre" : "Fiction",
+    "Rating" : 5,
+    "NumberOfPage": 128,
+    "title": "The Old Man and the Sea",
+    "YearOfPublication": 1952
+  },
+  {
+    "author": "Henrik Ibsen",
+    "country": "Norway",
+    "genre" : "Realism",
+    "Rating" : 5,
+    "NumberOfPage": 68,
+    "title": "A Doll's House",
+    "YearOfPublication": 1879
+  },
+  {
+    "author": "Franz Kafka",
+    "country": "Czechoslovakia",
+    "genre" : "Story",
+    "Rating" : 5,
+    "NumberOfPage": 488,
+    "title": "Stories",
+    "YearOfPublication": 1924
+  },
+  {
+    "author": "Franz Kafka",
+    "country": "Czechoslovakia",
+    "genre" : "Philosophical",
+    "Rating" : 5,
+    "NumberOfPage": 160,
+    "title": "The Trial",
+    "YearOfPublication": 1925
+  },
+  {
+    "author": "Franz Kafka",
+    "country": "Czechoslovakia",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 352,
+    "title": "The Castle",
+    "YearOfPublication": 1926
+  },
+  {
+    "author": "D. H. Lawrence",
+    "country": "United Kingdom",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 432,
+    "title": "Sons and Lovers",
+    "YearOfPublication": 1913
+  },
+  {
+    "author": "Halldr Laxness",
+    "country": "Iceland",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 470,
+    "title": "Independent People",
+    "YearOfPublication": 1934
+  },
+  {
+    "author": "Doris Lessing",
+    "country": "United Kingdom",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 688,
+    "title": "The Golden Notebook",
+    "YearOfPublication": 1962
+  },
+  {
+    "author": "Astrid Lindgren",
+    "country": "Sweden",
+    "genre" : "Fiction",
+    "Rating" : 5,
+    "NumberOfPage": 160,
+    "title": "Pippi Longstocking",
+    "YearOfPublication": 1945
+  },
+  {
+    "author": "Naguib Mahfouz",
+    "country": "Egypt",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 355,
+    "title": "Children of Gebelawi",
+    "YearOfPublication": 1959
+  },
+  {
+    "author": "Thomas Mann",
+    "country": "Germany",
+    "genre" : "Family",
+    "Rating" : 5,
+    "NumberOfPage": 736,
+    "title": "Buddenbrooks",
+    "YearOfPublication": 1901
+  },
+  {
+    "author": "Herman Melville",
+    "country": "United States",
+    "genre" : "Adventure",
+    "Rating" : 5,
+    "NumberOfPage": 378,
+    "title": "Moby Dick",
+    "YearOfPublication": 1851
+  },
+  {
+    "author": "Elsa Morante",
+    "country": "Italy",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 600,
+    "title": "History",
+    "YearOfPublication": 1974
+  },
+  {
+    "author": "Murasaki Shikibu",
+    "country": "Japan",
+    "genre" : "Monogatari",
+    "Rating" : 5,
+    "NumberOfPage": 1360,
+    "title": "The Tale of Genji",
+    "YearOfPublication": 1006
+  },
+  {
+    "author": "Robert Musil",
+    "country": "Austria",
+    "genre" : "Philosophical",
+    "Rating" : 5,
+    "NumberOfPage": 365,
+    "title": "The Man Without Qualities",
+    "YearOfPublication": 1931
+  },
+  {
+    "author": "George Orwell",
+    "country": "United Kingdom",
+    "genre" : "Fiction",
+    "Rating" : 5,
+    "NumberOfPage": 272,
+    "title": "Nineteen Eighty-Four",
+    "YearOfPublication": 1949
+  },
+  {
+    "author": "Fernando Pessoa",
+    "country": "Portugal",
+    "genre" : "Autobiography",
+    "Rating" : 5,
+    "NumberOfPage": 272,
+    "title": "The Book of Disquiet",
+    "YearOfPublication": 1928
+  },
+  {
+    "author": "Edgar Allan Poe",
+    "country": "United States",
+    "genre" : "Comedy",
+    "Rating" : 5,
+    "NumberOfPage": 842,
+    "title": "Loss of Breath",
+    "YearOfPublication": 1832
+  },
+  {
+    "author": "Edgar Allan Poe",
+    "country": "United States",
+    "genre" : "Comedy",
+    "Rating" : 5,
+    "NumberOfPage": 2408,
+    "title": "The Duc de L'Omelette",
+    "YearOfPublication": 1832
+  },
+  {
+    "author": "Tayeb Salih",
+    "country": "Sudan",
+    "genre" : "Novel",
+    "Rating" : 5,
+    "NumberOfPage": 139,
+    "title": "Season of Migration to the North",
+    "YearOfPublication": 1966
+  },
+  {
+    "author": "William Shakespeare",
+    "country": "England",
+    "genre" : "Tragedy",
+    "Rating" : 5,
+    "NumberOfPage": 432,
+    "title": "Hamlet",
+    "YearOfPublication": 1603
+  },
+  {
+    "author": "Jonathan Swift",
+    "country": "Ireland",
+    "genre" : "Fantasy",
+    "Rating" : 5,
+    "NumberOfPage": 178,
+    "title": "Gulliver's Travels",
+    "YearOfPublication": 1726
+  },
+  {
+    "author": "Leo Tolstoy",
+    "country": "Russia",
+    "genre" : "Historical",
+    "Rating" : 5,
+    "NumberOfPage": 1296,
+    "title": "War and Peace",
+    "YearOfPublication": 1867
+  },
+  {
+    "author": "Leo Tolstoy",
+    "country": "Russia",
+    "genre" : "Realism",
+    "Rating" : 5,
+    "NumberOfPage": 864,
+    "title": "Anna Karenina",
+    "YearOfPublication": 1877
+  },
+  {
+    "author": "Leo Tolstoy",
+    "country": "Russia",
+    "genre" : "Fiction",
+    "Rating" : 5,
+    "NumberOfPage": 92,
+    "title": "The Death of Ivan Ilyich",
+    "YearOfPublication": 1886
+  },
+  {
+    "author": "Walt Whitman",
+    "country": "United States",
+    "genre" : "Poetry",
+    "Rating" : 5,
+    "NumberOfPage": 152,
+    "title": "Leaves of Grass",
+    "YearOfPublication": 1855
+  },
+  {
+    "author": "FIROOZEH DUMAS",
+    "country": "Iran",
+    "genre" : "Humor",
+    "Rating" : 5,
+    "NumberOfPage": 408,
+    "title": "Funny In Farsi",
+    "YearOfPublication": 1971
+  }
+]

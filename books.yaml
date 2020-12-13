@@ -1,0 +1,113 @@
+openapi: "3.0.0"
+info:
+  version: 0.0.1
+  title: Books Store
+  description: Rest Api to get books list and seach for specific books base on search criteria
+  termsOfService: http://swagger.io/terms/
+  contact:
+    name: Nabil Tahri
+    email: nabil.tahri@polymtl.ca
+    url: http://swagger.io
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+servers:
+  - url: http://localhost:8080/v1/api
+paths:
+  /books:
+    get:
+      tags:
+        - Books
+      summary: Returns all books
+      description: Get all stored books
+      operationId: GetBooks
+      responses:
+        '200':
+          description: Books response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Book'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+  /books/search:
+    post:
+      tags:
+        - Books
+      summary: Search for books with specific filter
+      description: Using filter to search for books
+      operationId: SearchBooks
+      requestBody:
+        description: Search for specific Books
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SearchPayload'
+      responses:
+        '200':
+          description: Book response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Book'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+components:
+  schemas:
+    Book:
+      properties:
+        Author:
+          type: string
+          description: Name of the author
+        Genre:
+          type: string
+        NumberOfPage:
+          type: integer
+          format: int32
+        YearOfPublication:
+          type: integer
+          format: int32
+        Rating:
+          type: integer
+          format: int32
+    SearchPayload:
+      properties:
+        Author:
+          type: string
+          description: Name of the author
+        Genre:
+          type: string
+        NumberOfPage:
+          type: integer
+        Literature:
+          type: string
+          enum:
+            - NOT_SPECIFIED
+            - MODERN
+            - CLASSIC
+
+    Error:
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: integer
+          format: int32
+          description: Error code
+        message:
+          type: string
+          description: Error message
