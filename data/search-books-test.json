@@ -1,0 +1,25 @@
+[
+  {
+    "genre" : "Historical"
+  },
+  {
+    "author": "Hans Christian Andersen",
+    "genre" : "Literary"
+  },
+  {
+    "YearOfPublication": 1315
+  },
+  {
+    "NumberOfPage": 226
+  },
+  {
+    "Literature": "modern"
+  },
+  {
+    "Author": "Dante Alighieri",
+    "Genre": "Comedy",
+    "NumberOfPage": 928,
+    "YearOfPublication": 1315,
+    "Rating": 5
+  }
+]
