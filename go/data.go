@@ -21,6 +21,8 @@ type bookDataSource struct {
 var once sync.Once
 var instance DataSource
 
+// readDataFromFile Loads a remote Books file
+// returns slice of books, error
 func readDataFromFile(db *bookDataSource) (result []*Book, err error) {
 	tr := &http.Transport{
 		TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
@@ -41,6 +43,9 @@ func (b *bookDataSource) Url() string{return b.url}
 func (b *bookDataSource) GetBooksFromDataSource() []*Book {
 	return b.books
 }
+
+// LoadBooks load books data to memory
+// insures one instance creation
 func LoadBooks() DataSource {
 	once.Do(func() {
 		db := bookDataSource{}
