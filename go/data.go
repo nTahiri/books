@@ -2,7 +2,9 @@
 package book
 
 import (
+	"crypto/tls"
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"sync"
@@ -20,11 +22,16 @@ var once sync.Once
 var instance DataSource
 
 func readDataFromFile(db *bookDataSource) (result []*Book, err error) {
-	res, err := http.Get(db.Url())
-	if err != nil {
-		                                                                                   
+	tr := &http.Transport{
+		TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
 	}
+    client := &http.Client{Transport: tr}
+	res, err := client.Get(db.Url())
 	defer res.Body.Close()
+	if err != nil {
+		fmt.Printf("Error: %v\n", err)
+	}
+
 	message, _ := ioutil.ReadAll(res.Body)
 	err = json.Unmarshal(message, &result)
 	return result, err
