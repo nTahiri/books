@@ -4,11 +4,14 @@ clean:
 build: clean
 	go build -o books
 
+test:
+	go test -v ./go
+
 run: build
 	chmod +x books
 	./books
-docker_build: build
-	docker build -t books .
+docker_build: clean
+	docker build --network=host -t books .
 
 docker_run:
-	docker run -it books --port 8080
+	docker run -p 8080:8080 --rm -it books
