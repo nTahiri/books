@@ -1,4 +1,4 @@
-# Go API Server for openapi
+# Go API Server for books
 
 A sample API that uses a Books store as an example 
 ## Overview
@@ -19,17 +19,17 @@ go run main.go
 
 To run the server in a docker container
 ```
-docker build --network=host -t openapi .
+docker build --network=host -t books .
 ```
 
 Once image is built use
 ```
-docker run --rm -it openapi 
+docker run --rm -it books 
 ```
 
 To get list of books you need to execute:
 ```
-curl -X GET http://localhost:8080/v1/api/book
+curl -X GET http://localhost:8080/v1/api/books
 ```
 To search with a specific criteria you can run the above command as example
 ```
